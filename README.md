@@ -1,10 +1,10 @@
-# 🧬 AWS & DO Cloud Health Automation Suite
+#  AWS & DO Cloud Health Automation Suite
 
 A collection of Python automation scripts for monitoring, backing up, and restoring infrastructure resources on AWS EC2, EKS, and **DigitalOcean**. Includes scheduled health checks, volume snapshot handling, and container uptime recovery mechanisms.
 
 ---
 
-## 🛠️ Features
+##  Features
 
 -  **EC2 Instance Health Checks** (Scheduled)
 -  **EKS Cluster Status Reports**
@@ -16,7 +16,7 @@ A collection of Python automation scripts for monitoring, backing up, and restor
 
 ---
 
-## 📁 Directory Structure
+##  Directory Structure
 
 ```text
 scripts/
@@ -32,7 +32,7 @@ requirements.txt              # Python dependencies
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 **Install dependencies:**
 ```
@@ -51,7 +51,7 @@ python scripts/ec2-status-checks.py
 
 ---
 
-## 📨 Notifications
+##  Notifications
 
 - Emails sent via Gmail SMTP when website goes down
 - DigitalOcean recovery scripts restart both Droplet and Docker container
@@ -59,7 +59,7 @@ python scripts/ec2-status-checks.py
 
 ---
 
-## ⚠️ Security Notes
+##  Security Notes
 
 - Never commit .env with secrets
 - Consider adding .env to your .gitignore
